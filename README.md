@@ -19,8 +19,6 @@ The data provider is [QuantQuote](https://quantquote.com/historical-stock-data),
 
 The scripts in this repository can be called directly, but you may want to set or change the Postgres environment variables.
 
-**bash**
-
 ```bash
 git clone git@github.com:ellisvalentiner/QuantQuoteHistoricalIngest.git
 chmod +x QuantQuoteHistoricalIngest/script.sh
