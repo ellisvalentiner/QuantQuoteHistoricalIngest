@@ -30,7 +30,6 @@ QuantQuoteHistoricalIngest/script.sh
 **docker**
 
 ```bash
-docker pull ellisvalentiner/QuantQuoteHistoricalIngest
-docker run ellisvalentiner/QuantQuoteHistoricalIngest
+docker pull ellisvalentiner/sp500
+docker run ellisvalentiner/sp500
 ```
-
