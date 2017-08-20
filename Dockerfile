@@ -5,6 +5,6 @@ LABEL maintainer="Ellis Valentiner"
 ADD ./ .
 
 RUN chmod +x script.sh
-RUN ./script.sh
+RUN /etc/init.d/postgresql start && ./script.sh
 
 CMD ["postgres"]
