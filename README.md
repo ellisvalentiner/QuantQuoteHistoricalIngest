@@ -17,7 +17,7 @@ The data provider is [QuantQuote](https://quantquote.com/historical-stock-data),
 
 ## Use
 
-The scripts in this repository can be called directly or you can use the database provided by the Docker image.
+The scripts in this repository can be called directly, but you may want to set or change the Postgres environment variables.
 
 **bash**
 
@@ -25,11 +25,4 @@ The scripts in this repository can be called directly or you can use the databas
 git clone git@github.com:ellisvalentiner/QuantQuoteHistoricalIngest.git
 chmod +x QuantQuoteHistoricalIngest/script.sh
 QuantQuoteHistoricalIngest/script.sh
-```
-
-**docker**
-
-```bash
-docker pull ellisvalentiner/sp500
-docker run ellisvalentiner/sp500
 ```
